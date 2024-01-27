@@ -1,0 +1,160 @@
+
+
+/*body{
+    background-image: url("bigwave.jpg");
+}*/
+/*
+#bkg {
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width:100%;
+    z-index: -1;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.headerpart{
+    width: 100%;
+    height: 20vh;
+}
+.subcontainer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    width: 80%;
+    height: 80vh;
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+*/
+*{
+    text-align: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    /*display: grid;
+    grid-template-rows: 20vh;
+    grid-template-columns: auto, 300px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+
+    background-color: mediumseagreen;
+    color: white;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.one { width: 200px;
+    height: auto;
+    padding: 5px;
+
+}
+.text  > h1 {
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Satisfy', cursive;
+}
+/*
+.text {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+*/
+
+.pic {
+    /*height: 20vh;*/
+    margin: 5px;
+}
+
+/*.pic > img {
+    object-fit: contain;
+}
+*/
+
+#vangho {
+    width: 200px;
+    height: auto;
+}
+
+   /*
+.header > img {
+    width: 300px;
+ float: right;
+
+   align-self: flex-end;
+} */
+.hero {
+    width: 250px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*text-align: center;*/
+}
+.description {
+padding-bottom: 15px;
+}
+
+.content { 
+    margin: 15px;;
+
+
+}
+.skillset{
+    display: flex;
+    flex-direction: column;
+   
+}
+.skilllog {
+    display: flex;
+    flex-basis: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skilllog > img{
+    margin: 10px;
+    width: 100px;
+}
+#html {
+    opacity: 1;
+}
+#css {
+    opacity: 1;
+}
+#js {
+    opacity: 1;
+}
+#node {
+    opacity: 1;
+}
+#react {
+    opacity: 0.3;
+}
+#bs {
+    opacity: 1;
+}
+#postgres {
+    opacity: 0.5;
+}
+#git {
+    opacity: 1;
+}
+/*
+.footer{
+    
+}
+*/
